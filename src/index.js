@@ -4,7 +4,7 @@ const blacklist = require('blacklist');
 const React = require('react');
 
 
-export default class VideoJS extends Component {
+export default class VideoJS extends React.Component {
   
   componentDidMount = () => {
     const self = this;

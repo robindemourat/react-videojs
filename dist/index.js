@@ -15,8 +15,8 @@ var cx = require('classnames');
 var blacklist = require('blacklist');
 var React = require('react');
 
-var VideoJS = function (_Component) {
-  _inherits(VideoJS, _Component);
+var VideoJS = function (_React$Component) {
+  _inherits(VideoJS, _React$Component);
 
   function VideoJS() {
     var _ref;
@@ -64,6 +64,6 @@ var VideoJS = function (_Component) {
   }
 
   return VideoJS;
-}(Component);
+}(React.Component);
 
 exports.default = VideoJS;
